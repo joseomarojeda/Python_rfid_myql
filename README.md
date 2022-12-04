@@ -1,0 +1,1 @@
+En este repositorio contiene un ejercicio realizado con Rasperry Pi que hace en el cual hacemos uso del sensor MFRC522 en el cual llevaremos acabo la lectura de un tag RFID de 13.56MHz y tambien realizara un reporte en una Base de Datos.
