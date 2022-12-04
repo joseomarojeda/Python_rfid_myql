@@ -1,15 +1,6 @@
-# Bibliotecas
-import mysql.connector
+from mysql.connector import (connection)
 
-# Programa
-print ("Conectandose a la base de datos")
-cnx = mysql.connector.connect(user='omarojeda',
-                              password='2602',
-                              host='192.168.100.7',
-                              database='codigoIoT')
-print ("Conexion realizada")
-print (cnx)
-
-print ("Cerrar conexión")
+cnx = connection.MySQLConnection(user='omarojeda', password='2602',
+                                 host='127.168.100.7',
+                                 database='codigoIoT')
 cnx.close()
-print ("Conexión cerrada")
