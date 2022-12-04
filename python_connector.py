@@ -3,7 +3,7 @@ import mysql.connector
 
 # Programa
 print ("Conectandose a la base de datos")
-cnx = mysql.connector.connect(user='hugolan',password='1234',host='192.168.1.85',database='codigoIoT')
+cnx = mysql.connector.connect(user='omarojeda',password='2602',host='192.168.100.07',database='codigoIoT')
 print ("Conexion realizada")
 print (cnx)
 
